@@ -21,5 +21,23 @@ spec:
 #### 9번쨰 줄에서 '-'를 쓰는 이유는 spec.containers의 하위 필드를 배열 형태로 묶겠다는 뜻이다. 그래서 .spec.containers[]라고 표기한다. 
 
 
+### probe란
+
+# 헬스체크(health check)
+1. livenessprobe
+2. readinessprobe
+3. startupprobe
+
+## 핸들러(handler)를 kubelet이 호출해서 실행
+#### 3가지의 핸들러가 있다. 
+1. execaction
+2. tcpsocketaction
+3. httpgetaction
+
+#### 진단결과
+* success
+* Failure
+* Unknown
+
 
 
