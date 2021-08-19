@@ -18,6 +18,7 @@ spec:
     ports:
     - containerPort:8080
 ```
+#### 9번쨰 줄에서 '-'를 쓰는 이유는 spec.containers의 하위 필드를 배열 형태로 묶겠다는 뜻이다. 그래서 .spec.containers[]라고 표기한다. 
 
 
 
