@@ -4,7 +4,7 @@
 
 
 #### pod-sample.yaml(Pod 예시)
-```
+``` yaml
 apiVersion: v1
 kind: pod
 metadata:
@@ -36,6 +36,16 @@ spec:
 kubelet이 호출해서 실행하며 핸들러에는 **세가지**가 존재한다.
 
 1. execaction : exec를 통해서 명령어가 실행 되는지 확인 한다. 종료코드가 **0**이면 Success라고 진단.
+``` yaml
+livenessProbe:   #readinessProbe:
+  exec:
+    command:
+    - /tmp/hello
+  initalDelaySeconds: 90
+  timeoutSeconds: 1
+```
+*tmp/hello 커맨드를 실행 했을떄 존재하면 Success이다.*
+
 2. TCPsocketaction : container 안에 지정된 IP와 포트로 TCP의 statu를 확인하고 port가 연려있으면 Success라고 진단.
 3. HTTPgetaction : container 안에 지정된 ip, port, 경로로 HTTP GET요청을 보냄. 응답 상태 코드가 200 ~ 400 사이면 Success라고 진단.
 
