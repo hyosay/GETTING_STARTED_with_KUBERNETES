@@ -1,5 +1,5 @@
 # 쿠버네티스 정리 파일
-
+## [도커 복습하기]()
 
 ## ➡️ [쿠버네티스 단어 정리 파일](https://github.com/hyoseong-j/GETTING_STARTED_with_KUBERNETES/blob/main/define.md)
 
