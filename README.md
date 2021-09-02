@@ -10,3 +10,7 @@
 ## ➡️ [쿠버네티스 용어 및 개념 정리](https://github.com/hyoseong-j/GETTING_STARTED_with_KUBERNETES/blob/main/define2.md)
 
 #### 쿠버네티스 관련 단어 정리
+
+
+### 궁금한거
+1. minikube를 쓰면 단일 노드 클러스터이기 떄문에 대부분 퍼블릭 클라우드를 통해 다중 노드 클러스터를 가동하지만 최근에는 로컬에서도 가능한 **Docker-in-Docker cluster**를 사용한다. 즉 **DinD**기술이 무엇인지 모르겠다.
