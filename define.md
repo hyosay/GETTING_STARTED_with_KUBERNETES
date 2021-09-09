@@ -17,3 +17,21 @@
 |수평확장         |Horizontal scaling| IT자원의 수용 증가/감소를 처리할 수 있는 능력, 스케일 아웃과 스케일 인이 있음|
 |수직확장         |Vertical scaling| 스케일 업과 스케일 다운, 기존 it 자원ㅇ르 다른 고사양 혹은 저사양 용량을 갖는 자원으로 대체한 경우 ex)데스크탑 성능을 업그레이드 하는것과 같음|
 
+
+### point.1
+## 클라우드 컴퓨팅의 특성
+1. 주문형 자가 서비스
+2. 폭넓은 네트워크 접근
+3. 자원 풀링(pooling)
+다중 임대(multi-tenant)방식으로 다중 사용자에게 제공하기 위해 풀 혀애로 유지
+4. 신속한 탄력성(raid elasticity)
+- 신속한 확장/ 축소
+5. 측정 서비스(measured service)
+
+클라우드 model
+- Saas(software as a service)
+  + 웹브라우저 통한 접근 (구글 드라이브)
+- Paas(Platform as a Service)
+  + ids
+- Iaas(infrastructure as a Service)
+  - vm 같은것 AMAZON EC2, GCE
