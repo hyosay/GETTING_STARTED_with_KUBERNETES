@@ -72,4 +72,4 @@ virtualization 키워드
 1. hardware 기반
 2. OS 기반 가상화
 - vm
-3. middleware 
+3. middleware
