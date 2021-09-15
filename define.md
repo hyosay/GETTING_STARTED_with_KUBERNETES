@@ -39,23 +39,21 @@
 
 
 ## 4.1 가상화 기술
-
 * 가상화 기술 (virtualization, iass 기반 기술)
 - 물리적인 자원과 사용자가 사용하는 자원을 분리(cpu, memory)
 
 <img width="793" alt="스크린샷 2021-09-15 오후 1 14 22" src="https://user-images.githubusercontent.com/46950334/133369646-20b106af-4ac2-4674-8e48-7aa591f8546f.png">
 
-> host machine없이 바로 가상화
-
+> host machine없이 바로 가상화   
 > virtualbox같은게 hypervisor, VMM이라고 한다.
 
-virtualization 키워드
+### virtualization 키워드
 1. 추상화(abstraction)
 2. 다중화(multiple instances)
 3. 고립, 독립 (isolation)
 4. 통합 (consolidation)
 
-가상화 장저 
+### 가상화 장점 
 1. 이용률(utilization)을 높인다.
 2. 독립(isolation)적인 자원을 제공한 것처러 사용이 가능하다.
 3. 여러 물리 자원들은 단일한 가상 자원으로 집계(aggregation)할 수 있다.
@@ -63,28 +61,24 @@ virtualization 키워드
 5. 모의실험(emulation)
 > 베타테스터랑 비슷한건가???
 
-
-클라우드 컴퓨팅에서 가상화의 필요성
+### 클라우드 컴퓨팅에서 가상화의 필요성
 1. 가상머신동적관리
 
-
-가상화 소프트웨어 구현 층에 따른 분류
+### 가상화 소프트웨어 구현 층에 따른 분류
 1. hardware 기반
 - 메모리 사용량이 적고 부하가 적음
 - 호환성 이슈가 있음 
-2. OS 기반 가상화
+3. OS 기반 가상화
 - host os가 이미 지원하는 장치를 모두 활용 가능
 - 가상화 층의 도입에 따른 성능 저하발생
 - vm
-3. middleware
-
-설계방법
+4. middleware
+### 설계방법
 1. 전가상화(full virtualization)
 2. 반가상화(para virtualization)
 > 프로세스 가상화는 macos에서 뱅킹서비스를 못쓰니깐 뱅킹같은 특정한 서비스만 사용할 수 있게 만드는 가상화
 
-
-결국 가상화 목표에 따른 분류는 4가지로 나눌 수 있다.
+#### 결국 가상화 목표에 따른 분류는 4가지로 나눌 수 있다.
 1. 서버 가상화
 2. 스토리지 공간 가상화
 3. 네트워크 가상화
