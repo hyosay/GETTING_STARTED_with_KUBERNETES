@@ -46,6 +46,17 @@
 
 > host machine없이 바로 가상화
 
-virtualbox같은게 hypervisor, VMM이라고 한다.
+> virtualbox같은게 hypervisor, VMM이라고 한다.
+
+virtualization 키워드
+1. 추상화(abstraction)
+2. 다중화(multiple instances)
+3. 고립, 독립 (isolation)
+4. 통합 (consolidation)
+
+
+
+
+
 
 
