@@ -35,3 +35,17 @@
   + ids
 - Iaas(infrastructure as a Service)
   - vm 같은것 AMAZON EC2, GCE
+
+
+## 4.1 가상화 기술
+
+* 가상화 기술 (virtualization, iass 기반 기술)
+- 물리적인 자원과 사용자가 사용하는 자원을 분리(cpu, memory)
+
+<img width="793" alt="스크린샷 2021-09-15 오후 1 14 22" src="https://user-images.githubusercontent.com/46950334/133369646-20b106af-4ac2-4674-8e48-7aa591f8546f.png">
+
+> host machine없이 바로 가상화
+
+virtualbox같은게 hypervisor, VMM이라고 한다.
+
+
