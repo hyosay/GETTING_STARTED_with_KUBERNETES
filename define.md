@@ -20,13 +20,14 @@
 
 ### point.1
 ## 클라우드 컴퓨팅의 특성
-1. 주문형 자가 서비스
-2. 폭넓은 네트워크 접근
-3. 자원 풀링(pooling)
+1. 주문형 자가 서비스(on-demand self service)
+2. 폭넓은 네트워크 접근(Broad network access)
+3. 자원 풀링(Resource pooling)
 다중 임대(multi-tenant)방식으로 다중 사용자에게 제공하기 위해 풀 혀애로 유지
-4. 신속한 탄력성(raid elasticity)
+4. 신속한 탄력성(rapid elasticity)
 - 신속한 확장/ 축소
 5. 측정 서비스(measured service)
+- 사용한만큼 페이지출
 
 클라우드 model
 - Saas(software as a service)
@@ -54,9 +55,21 @@ virtualization 키워드
 3. 고립, 독립 (isolation)
 4. 통합 (consolidation)
 
+가상화 장저 
+1. 이용률(utilization)을 높인다.
+2. 독립(isolation)적인 자원을 제공한 것처러 사용이 가능하다.
+3. 여러 물리 자원들은 단일한 가상 자원으로 집계(aggregation)할 수 있다.
+4. 이동성을 증가시킴
+5. 모의실험(emulation)
+> 베타테스터랑 비슷한건가???
 
 
+클라우드 컴퓨팅에서 가상화의 필요성
+1. 가상머신동적관리
 
 
-
-
+가상화 소프트웨어 구혀 층에 따른 분류
+1. hardware 기반
+2. OS 기반 가상화
+- vm
+3. middleware 
