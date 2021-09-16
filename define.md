@@ -67,15 +67,20 @@
 ### 가상화 소프트웨어 구현 층에 따른 분류
 1. hardware 기반
 - 메모리 사용량이 적고 부하가 적음
+- -aws
 - 호환성 이슈가 있음 
 3. OS 기반 가상화
 - host os가 이미 지원하는 장치를 모두 활용 가능
 - 가상화 층의 도입에 따른 성능 저하발생
 - vm
 4. middleware
+5. - JVM
 ### 설계방법
 1. 전가상화(full virtualization)
+- 변경사항이 없다.
 2. 반가상화(para virtualization)
+- os 수정하여 성능을 높인다
+
 > 프로세스 가상화는 macos에서 뱅킹서비스를 못쓰니깐 뱅킹같은 특정한 서비스만 사용할 수 있게 만드는 가상화
 
 #### 결국 가상화 목표에 따른 분류는 4가지로 나눌 수 있다.
@@ -84,3 +89,21 @@
 3. 네트워크 가상화
 - vpn (학교네트워크를 우리가 쓸 수 있게 징검다리 역할을 해준다.)
 4. 내장형 시스템 가상화
+
+
+##### xen architecture : 1유형
+Domain 0
+Domain U
+
+
+#### cpu virtualization
+* 공평성과 효율성에 맞게 할당해야함
+* 직접 수행(direct execution)
+  * hypervisor를 사용
+
+#### memory virtualization
+* 페이징 세그멘테이션 
+* 각 가상 머신이 쓰레싱없이 효과적으로 동작할 수 있도록 할당
+VA -> PA -> MM
+CACHE
+
