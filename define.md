@@ -111,3 +111,21 @@ CACHE
  
  
  
+## AWS Academy Cloud Foundations
+
+#### 모듈 6: 컴퓨팅
+
+
+1. ami(amazon machine image)
+- os
+- 
+2. 인스턴스 유형
++ 메모리
++ CPU
++ 스토리지
++ 네트워크 성능
+3. 네트워크 설정
+ 4. iam 역할
+
+
+# 존나 어렵\
