@@ -129,3 +129,20 @@ CACHE
 
 
 # 존나 어렵\
+
+## aws lambda
+
+트리거
+1초간격으로 이벤트(트리거)를 발생
+
+### mamzon elastic compute cloud(ec2)
+
+### amazon elastic block store(EBS)
+
+블록 스토리지와 객체 스토리지를 비교해보면 된다.
+객체 스트리지는 읽기전용으로 많이 씀
+
+
+
+
+
